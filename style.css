@@ -6,38 +6,46 @@
         margin:auto;
     }
 
-  #Title{
-  border:10px double black;
+  /* #Title{
+  border:15px double black;
     border-radius: 35px;
-    border-fill-color:green;
   font-size:70px;
     font-family:'Courier New', Courier, monospace;
-}
+    background-color:#A2C1AD;
+} */
    /* .Minor_Titles{
      font-size:35px;
      text-decoration:underline;
      font-family:'Courier New', Courier, monospace;
    } */
 
-   /* .Minor_Text{
+   .Minor_Text{
      font-family:'Courier New', Courier, monospace;
-   } */
+     font-size:25px;
+     width:80%;
+     margin:auto;
+     font-weight: normal;
+     line-height: 1.5;
+     text-align:justify;
+   }
 
    .photo{
      border-radius:35px;
      height:300px;
      display:inline-block;
+     padding-top: 25px;
+     padding-bottom: 25px;
    }
 
 h1{
   text-align: center;
   font-family:'Courier New', Courier, monospace;
-  font-size:40px;
   border:15px double black;
   border-radius:35px;
   background-color:#A2C1AD;
   width:80%;
   margin:auto;
+  font-size:70px;
 }
 
 h2{
@@ -51,10 +59,12 @@ h2{
 h3{
   text-align: center;
   font-family:'Courier New', Courier, monospace;
-  font-size:35px;
-  width:80%;
+  font-size:50px;
+  border:15px double black;
+  border-radius:50px;
+  background-color:#A2C1AD;
+  width:40%;
   margin:auto;
-  font-style:italic;
 }
 
 #Div1{
@@ -64,6 +74,21 @@ h3{
 }
 
 #Div2{
+  width:100%;
+  margin:auto;
+}
+
+.Div3{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.Div4{
+  border:none;
+  border-radius:35px;
+  background-color:#D4DDD7;
   width:80%;
   margin:auto;
 }
+
+
