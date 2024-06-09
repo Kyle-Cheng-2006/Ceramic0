@@ -42,7 +42,7 @@ h1{
   border:15px double black;
   border-radius:35px;
   background-color:#A2C1AD;
-  width:80%;
+  width:100%;
   margin:auto;
   font-size:70px;
 }
@@ -62,7 +62,7 @@ h3{
   border:15px double black;
   border-radius:50px;
   background-color:#A2C1AD;
-  width:40%;
+  width:60%;
   margin:auto;
 }
 
@@ -107,3 +107,34 @@ h3{
   border-radius:15px;
 }
 
+table, td{
+  border:10px double black;
+  border-radius:35px;
+  background-color:#D4DDD7;
+  font-family:'Courier New', Courier, monospace;
+  font-size:25px;
+  text-align: center;
+}
+
+th{
+  font-family:'Courier New', Courier, monospace;
+  font-size:35px;
+}
+
+table{
+  width:80%
+  margin:auto;
+}
+
+.img_link{
+  border-radius:35px;
+  border:10px double black;
+}
+
+.img_link:hover{
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  transition:0.5s;
+  background: #b3d9ff;
+  border-radius:15px;
+}
